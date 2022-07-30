@@ -1,0 +1,399 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorControlNormal">@color/gray_808080</item>
+        <item name="colorControlActivated">@color/gray_808080</item>
+        <item name="colorControlHighlight">@color/gray_808080</item>
+    </style>
+
+<!--    <style name="foodbutton">-->
+<!--        <item name="android:drawableRight">@drawable/downward_icon</item>-->
+<!--        <item name="android:background">@color/manaRed</item>-->
+
+<!--    </style>-->
+
+
+
+    <style name="ButtonWithIconn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+<!--    <style name="person">-->
+<!--        <item name="android:drawableLeft">@drawable/loginperson</item>-->
+<!--    </style>-->
+
+<!--    <style name="lock">-->
+<!--        <item name="android:drawable">@drawable/keypassicon</item>-->
+<!--    </style>-->
+
+<!--    <style name="searchwhite">-->
+<!--        <item name="android:drawableRight">@drawable/ic_search_black_24dp</item>-->
+<!--    </style>-->
+
+    <style name="forwardbutton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="android:drawableRight">@drawable/forwardicon</item>-->
+    </style>
+
+    <style name="approve_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EECE26</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="confirmed">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EECE26</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+<!--        <item name="android:drawableLeft">@drawable/confirm</item>-->
+    </style>
+
+    <style name="exited">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EECE26</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+<!--        <item name="android:drawableLeft">@drawable/exit</item>-->
+    </style>
+
+    <style name="exitbutton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EECE26</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+<!--        <item name="android:drawableRight">@drawable/exit</item>-->
+
+    </style>
+
+    <style name="search_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+<!--        <item name="android:drawableRight">@drawable/search_white</item>-->
+    </style>
+
+    <style name="kyc_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+<!--        <item name="android:drawableRight">@drawable/ic_search_black_24dp</item>-->
+    </style>
+
+    <style name="reccommend">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:strokeColor">@color/colorPrimary</item>
+<!--        <item name="android:drawableLeft">@drawable/thumbsup</item>-->
+    </style>
+
+    <style name="reccommend_unselected">
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:strokeColor">@color/colorPrimary</item>
+    </style>
+
+
+
+
+    <style name="action_style">
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingStart">4dp</item>
+
+    </style>
+
+
+
+    <style name="reassign">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+
+
+    <!--    <style name="employgoldbutton">-->
+    <!--        <item name="android:textSize">16sp</item>-->
+    <!--        <item name="android:textColor">@color/manaRed</item>-->
+    <!--        <item name="android:gravity">right</item>-->
+    <!--        <item name="android:layout_centerInParent">true</item>-->
+    <!--        <item name="android:padding">10dp</item>-->
+    <!--        <item name="android:drawableRight">@drawable/btn_dropdown</item>-->
+    <!--    </style>-->
+
+    <style name="Addmoney">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:strokeColor">@color/manaRed</item>
+    </style>
+
+    <style name="TextWithTitle">
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/black_300</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CardTitleHeader">
+        <item name="android:background">@color/card_title_header</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_margin">@dimen/parent_layout_margin</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+    <style name="EditTextfourteen" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+
+        <item name="boxBackgroundColor">@color/white</item>
+
+        <item name="boxStrokeColor">@color/grey1</item>
+    </style>
+
+    <style name="EditTextStyleItcPortal" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="strokeWidth">0.2dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+        <item name="boxBackgroundColor">@color/white</item>
+ <item name="boxStrokeColor">@color/grey1</item>
+    </style>
+
+    <style name="EditTextStyle2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+
+    <style name="EditTextStyle3" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="EditTextInput">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+
+
+    <style name="EditGreyTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">5dp</item>
+        <!--        <item name="boxStrokeColor">@color/inputBorderGrey</item>-->
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/red_100</item>
+        <item name="android:textSize">@dimen/text_size_12sp</item>
+    </style>
+
+    <style name="error_app" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_12sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/red_100</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="supportActionbar">
+        <item name="android:titleTextColor" tools:targetApi="m">@color/dark_grey_100</item>
+    </style>
+
+    <style name="AlertDialogCustom">
+
+        <item name="android:windowBackground">@color/pure_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+
+    </style>
+
+    <style name="description_style_4">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/margin_size_16dp</item>
+
+        <item name="android:textColor">#99000000</item>
+    </style>
+
+
+
+    <style name="value_style_6" parent="scheme_value_style_3">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/dark_grey_100</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+    </style>
+
+    <style name="scheme_value_style_3">
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="bahead">
+
+        <item name="android:background">#F8E896</item>
+
+    </style>
+
+    <style name="babutton">
+        <item name="android:textColor">@color/manaRed</item>
+        <item name="android:background">@color/manaYellow</item>
+
+    </style>
+
+
+
+
+
+    <style name="CustomDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@color/pure_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+
+    </style>
+
+
+    <style name="YellowTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:statusBarColor">#FFF0B133</item>
+    </style>
+
+    <style name="myTextInputLabelNew" parent="TextAppearance.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@android:color/tertiary_text_dark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/pure_transparent</item>
+        <item name="colorControlNormal">@android:color/tertiary_text_dark</item>
+        <item name="colorControlActivated">@color/manaRed</item>
+    </style>
+
+
+
+
+    <style name="Theme.Navigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+    <style name="Theme.Navigation.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Navigation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Navigation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTextAppearanceTab1" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/baloo_semibold</item>
+    </style>
+
+    <style name="spinnerstyle1" parent="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/baloo_semibold</item>
+    </style>
+
+    <style name="EditTextStyleOverview" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+
+
+    <style name="AlertDialogCustom1">
+    <item name="android:windowBackground">@color/dialogbg</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">false</item>
+    <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CustomDatepicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#3E137F</item>
+
+        <item name="colorControlActivated">#3E137F</item>
+        <item name="colorControlHighlight">#f6f7fc</item>
+    </style>
+
+
+</resources>

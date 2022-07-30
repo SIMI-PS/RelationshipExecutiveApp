@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backGroundColor">#eaeaea</color>
+    <color name="splash_grey">#c9c9c9</color>
+    <color name="red_FF896B">#FF896B</color>
+    <color name="gray_808080">#808080</color>
+    <color name="gray_2C2C2C">#2C2C2C</color>
+    <color name="transparent">#80000000</color>
+    <color name="dark_grey_100">#666666</color>
+    <color name="manaRed">#C10024</color>
+    <color name="manaYellow">#ffda1b</color>
+    <color name="colorPrimary">#d60129</color>
+    <color name="colorPrimaryDark">#ffda1b</color>
+    <color name="colorAccent">#d60129</color>
+    <color name="pure_transparent">#00000000</color>
+    <color name="dialogbg">#99000000</color>
+    <color name="red_100">#d60129</color>
+    <color name="grey1">#E3E3E3</color>
+    <color name="black_300">#de000000</color>
+    <color name="card_title_header">#f4f4f4</color>
+    <color name="yellow_ffda1b">#ffda1b</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Modules.DashBoard.DashboardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_cardbg">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/padding_size_16dp"
+                android:src="@drawable/back_button_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/rubik_bold"
+                android:text="Activity Dashboard"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/li_RE_Activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_size_20dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dashboardicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:gravity="center"
+                    android:text="RE Activity"
+                    android:textAlignment="center"
+                    android:textColor="@color/red_FF896B" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:padding="@dimen/margin_size_20dp">
+
+                <ImageView
+                    android:id="@+id/imageicone"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dashboardicon" />
+
+                <TextView
+                    android:id="@+id/labelname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:gravity="center"
+                    android:text="Coming Soon"
+                    android:textAlignment="center"
+                    android:textColor="@color/red_FF896B" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:padding="@dimen/margin_size_20dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dashboardicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:gravity="center"
+                    android:text="Coming Soon"
+                    android:textAlignment="center"
+                    android:textColor="@color/red_FF896B" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</layout>
+
+
+
